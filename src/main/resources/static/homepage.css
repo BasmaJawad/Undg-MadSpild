@@ -1,0 +1,18 @@
+body{
+    background-color:#EFE5D6;
+
+    font-family: "Arial Black";
+    color: #437367;
+    font-weight: 900;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+#topBar {
+    background-color:#708A81;
+    height: 40px;
+    box-shadow: 3px 3px 4px dimgrey;
+}
