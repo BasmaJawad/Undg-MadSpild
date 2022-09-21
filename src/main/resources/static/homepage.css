@@ -7,6 +7,7 @@ body{
 }
 
 h1{
+    margin-top: 80px;
     font-size: 60px;
     text-align: center;
 }
@@ -51,7 +52,7 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color on hover */
 li a:hover {
     background-color: #437367;
 }
@@ -61,7 +62,7 @@ li a:hover {
 }
 
 /* Style the search field */
-form.example input[type=text] {
+form.search-bar input[type=text] {
     padding: 10px;
     font-size: 17px;
     border: 1px solid grey;
@@ -71,15 +72,16 @@ form.example input[type=text] {
     border-radius: 1.625rem;
     margin-top: 15px;
     height: 25px;
+
+    position: relative;
 }
 
 /* Style the submit button */
-form.example button {
+form.search-bar button {
     float: left;
     width: 5%;
     padding: 1px;
-    background: #2196F3;
-    color: white;
+    color: grey;
     font-size: 17px;
     border: 1px antiquewhite;
     border-left: none; /* Prevent double borders */
@@ -87,14 +89,18 @@ form.example button {
     border-radius: 1.625rem;
     margin-top: 15px;
     height: 25px;
+
+    position: absolute;
+    top: 0;
+    left: 160px;
 }
 
-form.example button:hover {
+form.search-bar button:hover {
     background: #0b7dda;
 }
 
 /* Clear floats */
-form.example::after {
+form.search-bar::after {
     content: "";
     clear: both;
     display: table;
