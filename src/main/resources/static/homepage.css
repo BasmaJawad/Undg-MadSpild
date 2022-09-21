@@ -20,21 +20,27 @@ h1{
 
  */
 
+
+/* Navgivation bar */
 ul {
 
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     overflow: hidden;
     background-color: #708A81;
+    border: 0px;
 
     position: fixed;
     top: 0;
     width: 100%;
+
 }
+
 
 li {
     float: right;
+
 }
 
 li a {
@@ -72,7 +78,6 @@ form.example button {
     background: #2196F3;
     color: white;
     font-size: 17px;
-    border: 1px solid grey;
     border-left: none; /* Prevent double borders */
     cursor: pointer;
 }
