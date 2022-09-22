@@ -18,6 +18,7 @@ ul {
 
     list-style-type: none;
     margin: 0 auto;
+    margin-left: 70px;
     padding-left: 20px;
     padding-right: 20px;
     overflow: hidden;
@@ -106,6 +107,14 @@ h2{ /* Boks til overskrift => Butikker */
     text-align: left;
     color: darkslategray;
     margin-left: 20px;
+
+}
+
+#img-logo{
+    margin: auto 0;
+    postion: fixed;
+
+
 
 
 
