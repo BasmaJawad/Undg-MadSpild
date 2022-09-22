@@ -9,7 +9,7 @@ public class madspildController {
 
     @GetMapping("/")
     public String homepage(){
-        return "homepage";
+        return "";
     }
 
 }
