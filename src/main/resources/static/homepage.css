@@ -28,7 +28,7 @@ ul {
 
     position: fixed;
     top: 0;
-    width: 95%;
+    width: 96%;
     height: 55px;
 }
 
@@ -48,9 +48,8 @@ li a {
 
 /* Change the link color on hover */
 li a:hover {
-    background-color: #437367;
+    background-color: #33480b;
 }
-
 
 * {
     box-sizing: border-box;
@@ -103,13 +102,11 @@ form.search-bar::after {
     display: table;
 }
 
+#img-logo{
+    margin: auto 0;
+    position: fixed;
+    top: 0;
 
-#img-hp{
-    text-align: center;
-    margin-top: auto;
-}
-#img-homepage{
-    width: 1000px;
 }
 
 h2{ /* Boks til overskrift => Butikker */
@@ -119,13 +116,16 @@ h2{ /* Boks til overskrift => Butikker */
     margin-left: 50px;
 
 }
-#img-logo{
-    margin: auto 0;
-    position: fixed;
-    top: 0;
 
 
+#img-hp{
+    text-align: center;
+    margin-top: auto;
 }
+#img-homepage{
+    width: 1000px;
+}
+
 
 p{
     font-size: 15px;
@@ -157,7 +157,7 @@ p{
 #brugsen{
     margin-left: 70px;
     width: 100px;
-
+    float: left;
 }
 
 #bilka{
@@ -165,6 +165,7 @@ p{
     width: 100px;
     float: left;
 }
+
 #coop{
     margin-left: 70px;
     width: 100px;
