@@ -3,14 +3,15 @@ body{
 
     font-family: "Arial Black"; /* Skrift*/
     color: #33480b;
-    font-weight: 900;
+    font-weight: 500;
     margin: 0 auto;
 }
 
-h1{ /* Boks til overskrift => Undgå Madspild */
-    margin-top: 80px;
+h1{ /* Boks til overskrift => Info */
+    margin-top: 40px;
     font-size: 60px;
-    text-align: center;
+    text-align: Left;
+    margin-left: 50px;
 }
 
 /* Navgivation bar */
@@ -109,10 +110,20 @@ form.search-bar::after {
 
 }
 
-h2{ /* Boks til overskrift => Butikker */
+h2{ /* underBoks til overskrift => INFO */
+    font-family: "Bradley Hand";
     font-size: 30px;
     text-align: left;
-    color: darkslategray;
+    color: black;
     margin-left: 50px;
 
+
+}
+
+#pg1{
+    font-size: 14px;
+    text-align: left;
+    color: black;
+    margin-left: 50px;
+    line-height: 1.5;
 }
