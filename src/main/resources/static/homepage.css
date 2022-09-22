@@ -2,7 +2,7 @@ body{
     background-color:#f8f6e5; /* Hjemmesidens baggrunds farve */
 
     font-family: "Arial Black"; /* Skrift*/
-    color: #437367;
+    color: #33480b;
     font-weight: 900;
     margin: 0 auto;
 }
@@ -22,15 +22,15 @@ ul {
     padding-left: 20px;
     padding-right: 20px;
     overflow: hidden;
-    background-color: #708A81;
+    background-color: #4b701b;
     border: 0px;
 
     position: fixed;
     top: 0;
     width: 101%;
     height: 55px;
-
 }
+
 
 li {
     float: right;
@@ -49,6 +49,7 @@ li a {
 li a:hover {
     background-color: #437367;
 }
+
 
 * {
     box-sizing: border-box;
