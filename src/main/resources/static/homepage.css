@@ -26,7 +26,6 @@ ul {
     background-color: #4b701b;
     border: 0px;
 
-
     position: fixed;
     top: 0;
     width: 95%;
@@ -90,11 +89,11 @@ form.search-bar button {
 
     position: absolute;
     top: 1px;
-    left: 200px;
+    left: 250px;
 }
 
 form.search-bar button:hover {
-    background: #f8f6e5;
+    background: white;
 }
 
 /* Clear floats */
@@ -132,5 +131,42 @@ p{
     font-size: 15px;
     text-align: left;
     margin-left: 50px;
+}
 
+#føtex{
+    margin-left: 70px;
+    width: 100px;
+    float: left;
+}
+
+#aldi{
+    margin-left: 70px;
+    width: 100px;
+    float: left;
+}
+#lidl{
+    margin-left: 70px;
+    width: 100px;
+    float: left;
+}
+#netto{
+    margin-left: 70px;
+    width: 100px;
+    float: left;
+}
+#brugsen{
+    margin-left: 70px;
+    width: 100px;
+
+}
+
+#bilka{
+    margin-left: 70px;
+    width: 100px;
+    float: left;
+}
+#coop{
+    margin-left: 70px;
+    width: 100px;
+    float: left;
 }
