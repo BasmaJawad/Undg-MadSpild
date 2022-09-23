@@ -131,43 +131,53 @@ p{
     font-size: 15px;
     text-align: left;
     margin-left: 50px;
+    margin-bottom: 20px;
 }
 
 #føtex{
     margin-left: 70px;
-    width: 100px;
+    width: 90px;
     float: left;
 }
 
 #aldi{
     margin-left: 70px;
-    width: 100px;
+    width: 62px;
     float: left;
+    margin-top: -4px;
 }
 #lidl{
     margin-left: 70px;
-    width: 100px;
+    width: 80px;
     float: left;
+    margin-top: -10px;
 }
 #netto{
     margin-left: 70px;
-    width: 100px;
+    width: 70px;
     float: left;
 }
 #brugsen{
     margin-left: 70px;
-    width: 100px;
+    width: 80px;
     float: left;
 }
 
 #bilka{
     margin-left: 70px;
-    width: 100px;
+    width: 110px;
     float: left;
 }
 
 #coop{
     margin-left: 70px;
-    width: 100px;
+    width: 90px;
     float: left;
+}
+
+#bund{
+
+    text-align: center;
+    margin-top: 300px;
+    background-color: #ece7d1;
 }
