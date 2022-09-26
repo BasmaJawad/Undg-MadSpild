@@ -128,7 +128,6 @@ h2{ /* Boks til overskrift => Butikker */
     width: 1000px;
 }
 
-
 p{
     font-size: 15px;
     text-align: left;
@@ -180,8 +179,6 @@ p{
 #bund{
     margin-top: 300px;
     background-color: #ece7d1;
-
-
 }
 
 #txtBund{
@@ -193,17 +190,3 @@ p{
     margin-right: 150px;
 }
 
-#m1{
-    margin-left: 70px;
-    float: left;
-}
-
-#m2{
-    margin-left: 70px;
-    float: left;
-}
-
-#m3{
-    margin-left: 70px;
-    float: left;
-}
