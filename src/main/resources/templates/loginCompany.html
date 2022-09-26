@@ -2,27 +2,92 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Erhverv login</title>
     <link rel="stylesheet" href="loginCompany.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta name="viewport" content="width=300, initial-scale=1">
-    </head>
-        <body>
-    <center> <h1> Firma Login  </h1> </center>
-    <form>
-    <div class="container">
-        <label>Brugernavn : </label>
-        <input type="text" placeholder="Indtast brugernavn" name="brugernavn" required>
-        <label>Adgangskode : </label>
-        <input type="password" placeholder="Indtast adgangskode" name="password" required>
-        <button type="submit">Login</button>
-        <input type="checkbox" checked="checked"> Husk mig
-        <button type="button" class="cancelbtn"> annullerer</button>
-        Glemt <a href="#"> adgangskode? </a>
+</head>
+<center> <h1>   </h1> </center>
+<style>
+    Body{
+        font-family:Avenir Next;
+        background-color:#f8f6e5;
+        border-radius:20px;
+        width:500px;
+        margin-left:470px;
+        margin-right:200px;
+    }
+
+    button{
+        background-color: #4b701b;
+        width:100%;
+        color:black;
+        padding:15px;
+        margin:50px 0px;
+        border-color: darkgreen;
+        cursor:pointer;
+        border-radius:20px;
+        font-size: medium;
+        font-weight: bold;
+    }
+    form{
+        border-radius:20px;
+    }
+    input[type=text]{
+        width:100%;
+        margin:16px 0;
+        padding:12px 20px;
+        display:inline-block;
+        box-sizing:border-box;
+        border-radius:20px;
+        border-color: gray;
+    }
+    input[type=password]{
+        width:100%;
+        margin:16px 0;
+        padding:12px 20px;
+        display:inline-block;
+        box-sizing:border-box;
+        border-radius:20px;
+        border-color: gray;
+    }
+    button:hover{
+        opacity:0.7;
+        border-radius:20px;
+    }
+    .cancelbtn{
+        width:auto;
+        padding:10px 18px;
+        margin:10px 5px;
+        border-radius:20px;
+        background-color: #4b701b;
+        border-color: #4b701b;
+    }
+
+
+    .container{
+        padding:25px;
+        background-color:white;
+        border-radius:20px;
+
+    }
+</style>
+</head>
+<body>
+<center><h1> ERHVERV LOG IN </h1></center>
+<form>
+    <div class ="container">
+        <label>Brugernavn:</label>
+        <input type ="text"placeholder="Indtast brugernavn"name="brugernavn"required> <br> <br>
+        <label>Adgangskode:</label>
+        <input type ="password"placeholder="Indtast adgangskode"name="password"required>
+        <button type ="submit">Login</button>
+        <input type="checkbox"checked="checked">Husk mig
+        <button type="button"class="cancelbtn"> Annullerer </button>
+        Glemt <a href ="#"> adgangskode? </a>
     </div>
-    </form>
-        </body>
+</form>
+</body>
 
-        </head>
 
-    </html>
+
+</html>

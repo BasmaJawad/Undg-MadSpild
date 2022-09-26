@@ -3,10 +3,11 @@ body {
     background-color: #f8f6e5;
     border-radius: 20px;
     width: 500px;
-    margin-left: 400px;
+    margin-left: 450px;
     margin-right: 200px;
+
 }
-#button {
+.button {
     background-color: #4CAF50;
     width: 100%;
     color: black;
@@ -16,33 +17,36 @@ body {
     cursor: pointer;
     border-radius: 20px;
 }
-#form {
+.form {
     border: 3px solid grey;
     border-radius: 20px;
 }
-#input[type=text], input[type=password] {
+.input[type=text], input[type=password] {
     width: 100%;
-    margin: 8px 0;
+    margin: auto;
     padding: 12px 20px;
-    display: inline-block;
-    border: 2px silver;
+    display: block;
+    border: 2px green;
     box-sizing: border-box;
     border-radius: 20px;
+
+
 }
-button:hover {
+
+.button:hover {
     opacity: 0.7;
     border-radius: 20px;
 }
-#cancelbtn {
+.cancelbtn {
     width: auto;
     padding: 10px 18px;
     margin: 10px 5px;
     border-radius: 20px;
 }
 
-
-#container {
+.container {
     padding: 25px;
     background-color: white;
     border-radius: 20px;
+    height: 400px;
 }
