@@ -116,3 +116,83 @@ h2{ /* Boks til overskrift => Butikker */
     margin-left: 50px;
 
 }
+
+#loginBoks{
+    list-style-type: none;
+    background: white;
+    border: 5px outset white;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    font-size: medium;
+    font-family: "Avenir Next";
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-weight: bolder;
+    line-height: 2.5;
+    color: black;
+    border-radius: 20px;
+
+
+}
+
+
+p1{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+
+
+#føtex{
+    margin-left: 70px;
+    width: 90px;
+    float: left;
+}
+
+#aldi{
+    margin-left: 70px;
+    width: 62px;
+    float: left;
+    margin-top: -4px;
+}
+#lidl{
+    margin-left: 70px;
+    width: 80px;
+    float: left;
+    margin-top: -10px;
+}
+#netto{
+    margin-left: 70px;
+    width: 70px;
+    float: left;
+}
+#brugsen{
+    margin-left: 70px;
+    width: 80px;
+    float: left;
+}
+
+#bilka{
+    margin-left: 70px;
+    width: 110px;
+    float: left;
+}
+
+#coop{
+    margin-left: 70px;
+    width: 90px;
+    float: left;
+}
+
+#bund{
+
+    text-align: center;
+    margin-top: 300px;
+    background-color: #ece7d1;
+}
+

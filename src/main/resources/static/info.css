@@ -93,7 +93,7 @@ form.search-bar button {
 }
 
 form.search-bar button:hover {
-    background: white;
+    background: #f8f6e5;
 }
 
 /* Clear floats */
@@ -105,13 +105,14 @@ form.search-bar::after {
 
 #img-logo{
     margin: auto 0;
-    position: fixed;
-    top: 0;
+    position: absolute;
+    top:10%;
+    left:20%;
 
 }
 
 h2{ /* underBoks til overskrift => INFO */
-    font-family: "Bradley Hand";
+    font-family: "Avenir Next Condensed";
     font-size: 30px;
     text-align: left;
     color: black;
@@ -120,10 +121,36 @@ h2{ /* underBoks til overskrift => INFO */
 
 }
 
-#pg1{
-    font-size: 14px;
+#p1{
     text-align: left;
     color: black;
+    text-transform: initial;
+    font-weight: normal;
+    font-family: "Avenir Next";
+    width: 250px;
     margin-left: 50px;
-    line-height: 1.5;
+}
+
+#img-info1{
+    width: 600px;
+    margin-left: 300px;
+    alignment: top;
+
+}
+
+
+#p2{
+    text-align: left;
+    color: black;
+    font-family: "Avenir Next";
+    width: 250px;
+    margin-left: 50px;
+ }
+
+
+#bund{
+
+    text-align: center;
+    margin-top: 300px;
+    background-color: #ece7d1;
 }

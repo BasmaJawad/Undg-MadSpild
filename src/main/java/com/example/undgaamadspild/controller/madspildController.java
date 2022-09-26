@@ -27,4 +27,16 @@ public class madspildController {
         return "login";
     }
 
+
+    @GetMapping("/loginPrivate")
+    public String loginPrivate(){
+        return "loginPrivate";
+    }
+
+    @GetMapping("/loginCompany")
+    public String loginCompany(){
+        return "loginCompany";
+    }
+
+
 }
