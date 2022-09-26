@@ -10,7 +10,8 @@ body{
 h1{ /* Boks til overskrift => Undgå Madspild */
     margin-top: 80px;
     font-size: 60px;
-    margin-left: 50px;
+    text-align: center;
+
 }
 
 /* Navgivation bar */
@@ -133,7 +134,7 @@ h2{ /* Boks til overskrift => Butikker */
 }
 
 
-/* Search Button */
+/* søge knap */
 #search {
     color: white;
     padding: 16px;
@@ -143,24 +144,24 @@ h2{ /* Boks til overskrift => Butikker */
 }
 
 
-/* The search field */
+/* søge feltet */
 #myInput {
     font-size: 10px;
     padding: 14px 100px 1px 10px;
     border: 1px solid;
 }
 
-/* The search field when it gets focus/clicked on */
+/* søge felt når det er fokuseret */
 #myInput:focus {outline: 2px solid #ddd;}
 
-/* The container <div> - needed to position the dropdown content */
+/* <div> - så man kan ændre positionen på dropdown */
 #search {
     position: relative;
     display: inline-block;
 }
 
 
-/* Links inside the Search */
+/* Links inde i søge */
 #search a {
     color: black;
     padding: 12px 16px;
@@ -168,9 +169,60 @@ h2{ /* Boks til overskrift => Butikker */
     display: block;
 }
 
-/* Change color of Search links on hover */
+/* farve på søge links når man holder over */
 #search a:hover {background-color: #f1f1f1}
 
-/* Show the Search menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-#show {display:block;}
+
+#mælk{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 250px;
+}
+
+
+
+#smør{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+#øl{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+#vin{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+#salat{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+#laks{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+#hakket\ kød{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
 
