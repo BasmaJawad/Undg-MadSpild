@@ -1,10 +1,9 @@
 body{
     background-color: #f8f6e5; /* Hjemmesidens baggrunds farve  */
-
     font-family: "Arial Black"; /* Skrift*/
     color: #33480b;
     font-weight: 900;
-    margin: 0 auto;
+    margin: auto;
 }
 
 h1{ /* Boks til overskrift => Undgå Madspild */
@@ -114,7 +113,7 @@ h2{ /* Boks til overskrift => Butikker */
     text-align: left;
     color: darkslategrey;
     font-weight: 900;
-    margin-left: 50px;
+    margin-left: 70px;
 
 }
 
@@ -131,15 +130,21 @@ h2{ /* Boks til overskrift => Butikker */
 p{
     font-size: 15px;
     text-align: left;
-    margin-left: 50px;
+    margin-left: 70px;
     margin-bottom: 20px;
 }
 
-#mælk{
+#føtex{
     margin-left: 70px;
     width: 90px;
     float: left;
 }
+#netto{
+    margin-left: 70px;
+    width: 70px;
+    float: left;
+}
+
 
 #aldi{
     margin-left: 70px;
@@ -153,11 +158,7 @@ p{
     float: left;
     margin-top: -10px;
 }
-#smør{
-    margin-left: 70px;
-    width: 70px;
-    float: left;
-}
+
 #brugsen{
     margin-left: 70px;
     width: 80px;
@@ -179,6 +180,7 @@ p{
 #bund{
     margin-top: 300px;
     background-color: #ece7d1;
+    text-align: center;
 }
 
 #txtBund{
@@ -188,5 +190,9 @@ p{
     opacity: 0.5;
     margin-left: 150px;
     margin-right: 150px;
+}
+
+#ecoM{
+
 }
 
