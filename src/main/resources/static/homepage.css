@@ -1,5 +1,5 @@
 body{
-    background-color:#f8f6e5; /* Hjemmesidens baggrunds farve */
+    background-color: #f8f6e5; /* Hjemmesidens baggrunds farve  */
 
     font-family: "Arial Black"; /* Skrift*/
     color: #33480b;
@@ -112,7 +112,8 @@ form.search-bar::after {
 h2{ /* Boks til overskrift => Butikker */
     font-size: 30px;
     text-align: left;
-    color: darkslategray;
+    color: darkslategrey;
+    font-weight: 900;
     margin-left: 50px;
 
 }
@@ -122,6 +123,7 @@ h2{ /* Boks til overskrift => Butikker */
     text-align: center;
     margin-top: auto;
 }
+
 #img-homepage{
     width: 1000px;
 }
@@ -176,8 +178,32 @@ p{
 }
 
 #bund{
-
-    text-align: center;
     margin-top: 300px;
     background-color: #ece7d1;
+
+
+}
+
+#txtBund{
+    text-align: center;
+    font-size: 10px;
+    color: #33480b;
+    opacity: 0.5;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#m1{
+    margin-left: 70px;
+    float: left;
+}
+
+#m2{
+    margin-left: 70px;
+    float: left;
+}
+
+#m3{
+    margin-left: 70px;
+    float: left;
 }

@@ -10,7 +10,7 @@ body{
 h1{ /* Boks til overskrift => Undgå Madspild */
     margin-top: 80px;
     font-size: 60px;
-    text-align: center;
+    margin-left: 50px;
 }
 
 /* Navgivation bar */
@@ -116,9 +116,6 @@ h2{ /* Boks til overskrift => Butikker */
     margin-left: 50px;
 
 }
-
-
-
 
 
 #search input[type="text"] {
