@@ -7,15 +7,6 @@ body{
     margin: 0 auto;
 }
 
-h1{ /* Boks til overskrift => Login */
-    margin-top: 80px;
-    font-size: 60px;
-    text-align: left;
-    font-family: "Avenir Next";
-    margin-left: 55px;
-
-}
-
 
 
 /* Navgivation bar */
@@ -49,6 +40,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: white;
 }
 
 /* Change the link color on hover */
@@ -58,6 +50,12 @@ li a:hover {
 
 * {
     box-sizing: border-box;
+}
+
+li a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 /* Style the search field */
@@ -111,102 +109,82 @@ form.search-bar::after {
     margin: auto 0;
     position: fixed;
     top: 0;
+    left:0;
 
 }
 
+#food3{
+    width: 600px;
+    height: 500px;
+    position: fixed;
+    top: -900px;
+
+
+}
+
+
+h1{ /* Boks til overskrift => Login */
+    margin-top: 50px;
+    font-size: 60px;
+    text-align: left;
+    font-family: "Avenir Next";
+    margin-left: 130px;
+
+}
 #loginBoks{
     list-style-type: none;
-    margin-left: 50px;
+    margin-left: 130px;
     margin-right: 800px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 100px;
     height: 300px;
-    background: white;
+    background: #f8f6e5;
     padding: 10px;
     display: block;
     text-align: left;
     font-size: medium;
     font-family: "Avenir Next";;
-    font-weight: normal;
-    line-height: 5;
+    font-weight: bold;
+    line-height: 2.5;
     color: black;
     border-radius: 20px;
     float: left;
+    position: static;
 }
-h2{ /* Boks til overskrift => Butikker */
-    font-size: 30px;
-    text-align: left;
-    color: black;
-    margin-left: 50px;
+
+
+#p1{
+    alignment: left;
+    margin-bottom: 1px;
+    margin-left : 1px;
+    width: 200px;
+    height: 200px;
+    color: #33480b;
     font-family: "Avenir Next";
-
-}
-
-
-p1{
-    font-size: 15px;
-    text-align: left;
     margin-left: 50px;
-    margin-bottom: 20px;
-    font-family: "Avenir Next";
-}
 
-#p2{
-    font-size: medium;
-}
-
-#img-info3{
-    width: 400px;
-    margin-left: 800px;
-    alignment:top;
-    float: right;
 
 }
-#føtex{
-    margin-left: 70px;
-    width: 90px;
-    float: left;
-}
 
-#aldi{
-    margin-left: 70px;
-    width: 62px;
-    float: left;
-    margin-top: -4px;
-}
-#lidl{
-    margin-left: 70px;
-    width: 80px;
-    float: left;
-    margin-top: -10px;
-}
-#smørD{
-    margin-left: 70px;
-    width: 70px;
-    float: left;
-}
-#brugsen{
-    margin-left: 70px;
-    width: 80px;
-    float: left;
-}
 
-#bilka{
-    margin-left: 70px;
-    width: 110px;
-    float: left;
-}
-
-#coop{
-    margin-left: 70px;
-    width: 90px;
-    float: left;
-}
 
 #bund{
-
-    text-align: center;
     margin-top: 300px;
     background-color: #ece7d1;
+    text-align: center;
 }
+
+#txtBund{
+    text-align: center;
+    font-size: 10px;
+    color: #33480b;
+    opacity: 0.5;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#ecoM{
+
+}
+
 
