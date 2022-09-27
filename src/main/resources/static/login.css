@@ -114,10 +114,11 @@ form.search-bar::after {
 }
 
 #food3{
-    width: 600px;
+    width: 700px;
     height: 500px;
-    position: fixed;
-    top: -900px;
+    position: relative;
+    top: -400px;
+    right: 100px;
 
 
 }
@@ -137,7 +138,7 @@ h1{ /* Boks til overskrift => Login */
     margin-right: 800px;
     margin-top: 10px;
     margin-bottom: 100px;
-    height: 300px;
+    height: 200px;
     background: #f8f6e5;
     padding: 10px;
     display: block;
@@ -169,7 +170,7 @@ h1{ /* Boks til overskrift => Login */
 
 
 #bund{
-    margin-top: 300px;
+    margin-top: 500px;
     background-color: #ece7d1;
     text-align: center;
 }
