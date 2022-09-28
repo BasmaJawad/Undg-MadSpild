@@ -114,13 +114,11 @@ form.search-bar::after {
 }
 
 #food3{
-    width: 700px;
-    height: 500px;
-    position: relative;
-    top: -400px;
-    right: 100px;
-
-
+    width: 680px;
+    height: 600px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 
@@ -135,7 +133,6 @@ h1{ /* Boks til overskrift => Login */
 #loginBoks{
     list-style-type: none;
     margin-left: 130px;
-    margin-right: 800px;
     margin-top: 10px;
     margin-bottom: 100px;
     height: 200px;
@@ -149,7 +146,6 @@ h1{ /* Boks til overskrift => Login */
     line-height: 2.5;
     color: black;
     border-radius: 20px;
-    float: left;
     position: static;
 }
 
@@ -184,8 +180,9 @@ h1{ /* Boks til overskrift => Login */
     margin-right: 150px;
 }
 
-#ecoM{
-
+#maintxt{
+    float: left;
+    width: 700px;
 }
 
 

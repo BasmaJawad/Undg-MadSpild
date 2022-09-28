@@ -243,7 +243,6 @@ h2{ /* Boks til overskrift => Butikker */
     float: left;
 }
 
-
 #mælk{
     position: absolute;
     top: 0;
@@ -302,6 +301,15 @@ h2{ /* Boks til overskrift => Butikker */
     height: 80px;
 }
 
+#kage{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100px;
+    height: 100px;
+
+}
+
 .boks1{
     position: relative;
     width: 100px;
@@ -320,6 +328,21 @@ h2{ /* Boks til overskrift => Butikker */
     margin-left: 70px;
     margin-top: 100px;
     float: left;
+}
+
+#bund{
+    margin-top: 800px;
+    background-color: #ece7d1;
+    text-align: center;
+}
+
+#txtBund{
+    text-align: center;
+    font-size: 10px;
+    color: #33480b;
+    opacity: 0.5;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 
